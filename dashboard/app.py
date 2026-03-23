@@ -3,7 +3,7 @@ import requests
 import time
 
 # API endpoint
-API_URL = "http://127.0.0.1:8000"
+API_URL = "https://ai-rag-chatbot-fastapi.onrender.com"
 
 # Page config
 st.set_page_config(page_title="AI RAG Chatbot", page_icon="🤖")
