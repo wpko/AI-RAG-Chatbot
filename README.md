@@ -105,14 +105,15 @@ POST /upload
 POST /ask
 ```
 ---
-### 🧠 How It Works
-User uploads PDF via Streamlit UI
-Backend processes document → splits into chunks
-Embeddings created using OpenAI
-Stored in FAISS vector database
-User asks question via chat UI
-Relevant chunks retrieved
-LLM generates final answer
+## 🧠 How It Works
+
+1. User uploads PDF via Streamlit UI  
+2. Backend processes document → splits into chunks  
+3. Embeddings created using OpenAI  
+4. Stored in FAISS vector database  
+5. User asks question via chat UI  
+6. Relevant chunks retrieved  
+7. LLM generates final answer  
 ---
 ### ✨ Key Highlight (Important for Portfolio)
 
