@@ -18,15 +18,14 @@ A full-stack Retrieval-Augmented Generation (RAG) Chatbot with an interactive St
 - Context-aware responses using chat history
 - Semantic search with vector embeddings
 - Accurate answers using retrieved document context
-🎨 User Interface (Streamlit)
-  💬 Chat-style UI (like ChatGPT)
-  📄 Upload PDF directly from browser
-  ⏳ Real-time processing indicator (spinner)
-  ⌨️ Typing animation effect for responses
-  🧹 Clear chat button
-  ⚠️ Upload validation (prevents asking before upload)
-```
----
+###🎨 User Interface (Streamlit)
+- 💬 Chat-style UI (like ChatGPT)
+- 📄 Upload PDF directly from browser
+- ⏳ Real-time processing indicator (spinner)
+- ⌨️ Typing animation effect for responses
+- 🧹 Clear chat button
+- ⚠️ Upload validation (prevents asking before upload)
+
 ```
 ⚡ Backend
 FastAPI REST API
