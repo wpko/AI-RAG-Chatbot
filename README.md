@@ -55,7 +55,6 @@ Main Features:
 - Upload PDF → Ask Questions → Get AI Answers
 - Chat history maintained during session
 
-👉 (You can add screenshot here later)
 
 ---
 
@@ -148,8 +147,6 @@ POST /ask
 - User Interface:
 https://ai-rag-chatbot-streamlit.onrender.com
 
-(You can deploy Streamlit separately if needed)
-
 ---
 
 ### 🔮 Future Improvements
@@ -164,5 +161,5 @@ https://ai-rag-chatbot-streamlit.onrender.com
 
 ### 👨‍💻 Author
 
-Wai Phyo Ko
-Junior Python / AI Developer
+### Wai Phyo Ko
+### Junior Python / AI Developer
