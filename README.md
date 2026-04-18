@@ -111,6 +111,7 @@ uvicorn api.main:app --reload
 ```
 streamlit run dashboard/app.py
 ```
+# ⚠️ Important: FastAPI must be running before starting Streamlit.
 
 ---
 
@@ -138,6 +139,18 @@ POST /ask
 
 ---
 
+```md
+## 🧠 System Workflow
+
+1. User interacts with Streamlit UI
+2. Streamlit sends request to FastAPI backend
+3. FastAPI processes PDF + embeddings
+4. Response returned to Streamlit UI
+
+> ⚠️ FastAPI server must be running first
+
+---
+
 ### ✨ Key Highlight (Important for Portfolio)
 
 #### 👉 This project demonstrates:
@@ -155,6 +168,9 @@ POST /ask
 (https://ai-rag-chatbot-fastapi.onrender.com)
 - User Interface:
 https://ai-rag-chatbot-streamlit.onrender.com
+
+> ⚠️ **Important:** Please run the FastAPI backend first before using the Streamlit app.  
+> Otherwise, the app will not return any responses.
 
 ---
 
