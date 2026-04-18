@@ -14,10 +14,10 @@ A full-stack Retrieval-Augmented Generation (RAG) Chatbot with an interactive St
 ```
 ##🚀 Features
 ###🧠 AI Capabilities
--PDF-based Question Answering (RAG)
--Context-aware responses using chat history
--Semantic search with vector embeddings
--Accurate answers using retrieved document context
+*PDF-based Question Answering (RAG)
+*Context-aware responses using chat history
+*Semantic search with vector embeddings
+*Accurate answers using retrieved document context
 ```
 ---
 ```
