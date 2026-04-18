@@ -147,7 +147,7 @@ POST /ask
 3. FastAPI processes PDF + embeddings
 4. Response returned to Streamlit UI
 
-# > ⚠️ FastAPI server must be running first
+> ⚠️ FastAPI server must be running first
 ```
 
 ---
