@@ -8,7 +8,9 @@
 ![FAISS](https://img.shields.io/badge/FAISS-VectorDB-purple)
 ![AI](https://img.shields.io/badge/AI-Chatbot-yellow)
 ![Project](https://img.shields.io/badge/Project-Portfolio-blueviolet)
+
 ---
+
 A full-stack Retrieval-Augmented Generation (RAG) Chatbot with an interactive Streamlit user interface, allowing users to upload PDF documents and ask context-aware questions in a chat-style experience.
 
 ## 🚀 Features
@@ -31,7 +33,9 @@ A full-stack Retrieval-Augmented Generation (RAG) Chatbot with an interactive St
 - FastAPI REST API
 - Modular RAG pipeline using LangChain
 - Clean answer post-processing
+
 ---
+
 ### 🏗️ Tech Stack
 | Layer      | Technology           |
 | ---------- | -------------------- |
@@ -41,7 +45,9 @@ A full-stack Retrieval-Augmented Generation (RAG) Chatbot with an interactive St
 | Framework  | LangChain            |
 | Vector DB  | FAISS                |
 | Embeddings | OpenAI Embeddings    |
+
 ---
+
 ### 🖼️ UI Preview (Streamlit)
 
 Main Features:
@@ -50,7 +56,9 @@ Main Features:
 - Chat history maintained during session
 
 👉 (You can add screenshot here later)
+
 ---
+
 ### 📂 Project Structure
 ```
 AI-RAG-Chatbot/
@@ -85,6 +93,7 @@ Create .env file:
 OPENAI_API_KEY=your_api_key_here
 ```
 ---
+
 ### ▶️ Run Locally
 #### 1️⃣ Start Backend
 ```
@@ -94,7 +103,9 @@ uvicorn api.main:app --reload
 ```
 streamlit run dashboard/app.py
 ```
+
 ---
+
 ### 📡 API Endpoints
 #### 📄 Upload PDF
 ```
@@ -104,7 +115,9 @@ POST /upload
 ```
 POST /ask
 ```
+
 ---
+
 ## 🧠 How It Works
 
 1. User uploads PDF via Streamlit UI  
@@ -114,7 +127,9 @@ POST /ask
 5. User asks question via chat UI  
 6. Relevant chunks retrieved  
 7. LLM generates final answer  
+
 ---
+
 ### ✨ Key Highlight (Important for Portfolio)
 
 #### 👉 This project demonstrates:
@@ -124,13 +139,17 @@ POST /ask
 - Frontend + Backend integration
 - Real-world AI use case (Document QA system)
 - API deployment (Render)
+
 ---
+
 ### 🌐 Live Demo
 - Backend API:
 https://ai-rag-chatbot-fastapi.onrender.com
 
 (You can deploy Streamlit separately if needed)
+
 ---
+
 ### 🔮 Future Improvements
 - Multi-PDF support
 - Persistent vector DB (Chroma / Pinecone)
@@ -138,7 +157,9 @@ https://ai-rag-chatbot-fastapi.onrender.com
 - Chat history database
 - Drag & drop UI
 - Open-source LLM support
+
 ---
+
 ### 👨‍💻 Author
 
 Wai Phyo Ko
