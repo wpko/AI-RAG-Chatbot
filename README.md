@@ -1,4 +1,12 @@
 🤖 AI RAG Chatbot (PDF + Conversational UI)
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green)
+![Streamlit](https://img.shields.io/badge/Streamlit-Frontend-red)
+![LangChain](https://img.shields.io/badge/LangChain-RAG-orange)
+![OpenAI](https://img.shields.io/badge/OpenAI-LLM-black)
+![FAISS](https://img.shields.io/badge/FAISS-VectorDB-purple)
+![AI](https://img.shields.io/badge/AI-Chatbot-yellow)
+![Project](https://img.shields.io/badge/Project-Portfolio-blueviolet)
 
 A full-stack Retrieval-Augmented Generation (RAG) Chatbot with an interactive Streamlit user interface, allowing users to upload PDF documents and ask context-aware questions in a chat-style experience.
 
