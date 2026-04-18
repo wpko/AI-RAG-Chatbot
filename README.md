@@ -139,9 +139,8 @@ POST /ask
 
 ---
 
-```
 ## 🧠 System Workflow
-
+```
 1. User interacts with Streamlit UI
 2. Streamlit sends request to FastAPI backend
 3. FastAPI processes PDF + embeddings
