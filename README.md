@@ -56,9 +56,9 @@ Main Features:
 - Chat history maintained during session
 
 ### FastAPI Screenshots
-![Screenshot 1](images/AI_RAG_Fastapi 1.png)
-![Screenshot 2](images/AI_RAG_Fastapi 2.png)
-![Screenshot 3](images/AI_RAG_Fastapi 3.png)
+![FastAPI 1](images/AI_RAG_Fastapi 1.png)
+![FastAPI 2](images/AI_RAG_Fastapi 2.png)
+![FastAPI 3](images/AI_RAG_Fastapi 3.png)
 
 ### Streamlit Screenshot
 ![Streamlit Screenshot](images/AI_RAG_streamlit.png)
