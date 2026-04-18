@@ -10,7 +10,7 @@
 ![Project](https://img.shields.io/badge/Project-Portfolio-blueviolet)
 
 A full-stack Retrieval-Augmented Generation (RAG) Chatbot with an interactive Streamlit user interface, allowing users to upload PDF documents and ask context-aware questions in a chat-style experience.
----
+
 ```
 🚀 Features
 🧠 AI Capabilities
