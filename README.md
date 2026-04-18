@@ -139,16 +139,15 @@ POST /ask
 
 ---
 
-```md
+```
 ## 🧠 System Workflow
 
 1. User interacts with Streamlit UI
 2. Streamlit sends request to FastAPI backend
 3. FastAPI processes PDF + embeddings
 4. Response returned to Streamlit UI
-
-> ⚠️ FastAPI server must be running first
 ```
+> ⚠️ FastAPI server must be running first
 
 ---
 
