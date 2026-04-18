@@ -27,63 +27,85 @@ A full-stack Retrieval-Augmented Generation (RAG) Chatbot with an interactive St
 - 🧹 Clear chat button
 - ⚠️ Upload validation (prevents asking before upload)
 
-```
-⚡ Backend
-FastAPI REST API
-Modular RAG pipeline using LangChain
-Clean answer post-processing
-🏗️ Tech Stack
-Layer	Technology
-Frontend	Streamlit
-Backend	FastAPI
-AI Model	OpenAI (gpt-4o-mini)
-Framework	LangChain
-Vector DB	FAISS
-Embeddings	OpenAI Embeddings
-🖼️ UI Preview (Streamlit)
+### ⚡ Backend
+- FastAPI REST API
+- Modular RAG pipeline using LangChain
+- Clean answer post-processing
+---
+### 🏗️ Tech Stack
+| Layer      | Technology           |
+| ---------- | -------------------- |
+| Frontend   | Streamlit            |
+| Backend    | FastAPI              |
+| AI Model   | OpenAI (gpt-4o-mini) |
+| Framework  | LangChain            |
+| Vector DB  | FAISS                |
+| Embeddings | OpenAI Embeddings    |
+---
+### 🖼️ UI Preview (Streamlit)
 
 Main Features:
 
-Upload PDF → Ask Questions → Get AI Answers
-Chat history maintained during session
+- Upload PDF → Ask Questions → Get AI Answers
+- Chat history maintained during session
 
 👉 (You can add screenshot here later)
-
-📂 Project Structure
+---
+### 📂 Project Structure
+```
 AI-RAG-Chatbot/
 │
 ├── api/
 │   └── main.py              # FastAPI backend
 │
-├── rag/
-│   └── rag_pipeline.py      # RAG logic (LangChain)
-│
 ├── dashboard/
-│   └── app.py              # Streamlit UI (chat interface)
+│   └── app.py      # Streamlit UI (chat interface)
+│
+├── rag/
+│   └── rag_pipline.py              # RAG logic (LangChain)
 │
 ├── data/                   # Uploaded PDFs
 ├── .env
 ├── requirements.txt
 └── README.md
-⚙️ Installation
+```
+
+---
+
+### ⚙️ Installation
+```
 git clone https://github.com/your-username/AI-RAG-Chatbot.git
 cd AI-RAG-Chatbot
 pip install -r requirements.txt
+```
 
 Create .env file:
 
+```
 OPENAI_API_KEY=your_api_key_here
-▶️ Run Locally
-1️⃣ Start Backend
+```
+---
+### ▶️ Run Locally
+#### 1️⃣ Start Backend
+```
 uvicorn api.main:app --reload
-2️⃣ Start Frontend (Streamlit UI)
+```
+#### 2️⃣ Start Frontend (Streamlit UI)
+```
 streamlit run dashboard/app.py
-📡 API Endpoints
-Upload PDF
+```
+---
+### 📡 API Endpoints
+#### 📄 Upload PDF
+```
 POST /upload
-Ask Question
+```
+#### 💬 Ask Question
+```
 POST /ask
-🧠 How It Works
+```
+---
+### 🧠 How It Works
 User uploads PDF via Streamlit UI
 Backend processes document → splits into chunks
 Embeddings created using OpenAI
@@ -91,29 +113,32 @@ Stored in FAISS vector database
 User asks question via chat UI
 Relevant chunks retrieved
 LLM generates final answer
-✨ Key Highlight (Important for Portfolio)
+---
+### ✨ Key Highlight (Important for Portfolio)
 
-👉 This project demonstrates:
+#### 👉 This project demonstrates:
 
-End-to-end AI application development
-RAG (Retrieval-Augmented Generation) implementation
-Frontend + Backend integration
-Real-world AI use case (Document QA system)
-API deployment (Render)
-🌐 Live Demo
-Backend API:
+- End-to-end AI application development
+- RAG (Retrieval-Augmented Generation) implementation
+- Frontend + Backend integration
+- Real-world AI use case (Document QA system)
+- API deployment (Render)
+---
+### 🌐 Live Demo
+- Backend API:
 https://ai-rag-chatbot-fastapi.onrender.com
 
 (You can deploy Streamlit separately if needed)
+---
+### 🔮 Future Improvements
+- Multi-PDF support
+- Persistent vector DB (Chroma / Pinecone)
+- User login system
+- Chat history database
+- Drag & drop UI
+- Open-source LLM support
+---
+### 👨‍💻 Author
 
-🔮 Future Improvements
-Multi-PDF support
-Persistent vector DB (Chroma / Pinecone)
-User login system
-Chat history database
-Drag & drop UI
-Open-source LLM support
-👨‍💻 Author
-
-Wai Lay
+Wai Phyo Ko
 Junior Python / AI Developer
